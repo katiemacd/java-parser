@@ -29,7 +29,7 @@ public class StaticAnalyser {
 
     public static void main(String[] args) throws IOException {
         StaticAnalyser staticAnalyser = new StaticAnalyser();
-        FileInputStream file = new FileInputStream("/Users/scottcunningham/Desktop/squeakyClean.java");
+        FileInputStream file = new FileInputStream("badCode/multipleBadCodeInstances.java);
         staticAnalyser.analyseFile(file);
     }
 }
